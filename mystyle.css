@@ -7,18 +7,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 40px;
+    padding: 10px 2rem;
     background-color: #1f2937;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .logo-container img {
-    height: 50px;
+    height: 3.1rem;
 }
 
 .logo {
-    height: 50px;
-    width: 50px;
+    height: 3.1rem;
+    width: 3.1rem;
     object-fit: contain;
 }
 
@@ -26,7 +26,7 @@
     flex-grow: 1;
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 1rem;
     color: #f9faf8;
     gap: 20;
 }
@@ -35,15 +35,15 @@
     flex-grow: 1;
     display: flex;
     justify-content: center;
-    gap:15px;
+    gap:1rem;
     font-family: 'Roboto', sans-serif ;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .nav-links a {
     text-decoration: none;
     color: #f9faf8;
-    font-size: 18px;
+    font-size: 1rem;
     transition: color 0.3S ease;   
 }
 
@@ -54,37 +54,37 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 40px;
+    padding: 3.75rem 2rem;
     background-color: #1f2937;
 }
 
 .hero-text {
     flex: 1;
-    padding: 30px;
+    padding: 1.8rem;
 }
 
 .hero-text h1 {
-    font-size: 48px;
-    margin-bottom: 15px;
+    font-size: 3rem;
+    margin-bottom: 1rem;
     font-family: 'roboto', sans-serif;
     color: #f9faf8;
     font-weight: 900;
 }
 
 .hero-text p {
-    font-size: 18px;
+    font-size: 1rem;
     font-family: 'roboto', sans-serif;
     color: #f9faf8;
-    margin-bottom: 25px;
+    margin-bottom: 1.6rem;
 }
 
 .cta-button {
     background-color: blue;
     color: #f9faf8;
-    padding: 12px 25px;
+    padding: 1rem 1rem;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: bold;
     transition: 0.3s ease;
 }
@@ -167,7 +167,7 @@
     padding: 1.5rem;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.08);
     transition: transform 0.3s ease;
 }
 
@@ -176,7 +176,7 @@
 }
 
 .info-card h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
     color: #1f2937;
     text-align: center;
 }
@@ -191,7 +191,7 @@
 
 .info-section h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 2.25rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-family: 'robot', sans-serif;
@@ -205,7 +205,7 @@
     align-items: center;
     background-color: #e5e7eb;
     padding: 3rem;
-    height: 200px;
+    height: 12.5rem;
     position: relative;
     overflow: hidden;
 }
@@ -244,7 +244,7 @@ button {
     
     color: black;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 1.25rem;
     margin: 10px;
     cursor: pointer;
     font-size: 1rem;
@@ -271,7 +271,7 @@ button {
 .contact-section {
     background-color: #007BFF;
     color: #fff;
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
 }
 
 .contact-content {
@@ -286,15 +286,15 @@ button {
 .brand {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 1rem;
 }
 
 .brand img {
-    width: 60px;
+    width: 3.75rem;
 }
 
 .brand h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .contact-info p {
@@ -305,21 +305,21 @@ button {
     background-color: #1f2937;
     color: #f9faf8;
     text-align: center;
-    padding: 30px 20px;
+    padding: 1.9rem 1.25rem;
 }
 
 .footer-links {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
     flex-wrap: wrap;    
 }
 
 .footer-links a {
     color: #f9faf8;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 .footer-links a:hover {
@@ -327,13 +327,13 @@ button {
 }
 
 .footer-bottom {
-    margin-top: 15px;
-    font-size: 13px;
+    margin-top: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .social-icons a {
     margin: 0 10px;
-    font-size: 20px;
+    font-size: 1.25rem;
     color:#f9faf8;
     transition: transform 0.3s ease;
 }
@@ -370,7 +370,7 @@ button {
 }
 
 .container {
-    width: 1200px;
+    width: 75rem;
     margin: 0 auto;
 }
 
@@ -379,7 +379,7 @@ button {
 }
 
 button {
-    font-size: 14px;
-    padding: 8px 16px;
+    font-size: 0.9rem;
+    padding: 8px 1rem;
 }
 }
