@@ -344,6 +344,15 @@ button {
 }
 
 @media (max-width: 768px) {
+    body, html {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    footer {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
     .nav-links {
         flex-direction: row;
         align-items: center;
@@ -383,3 +392,6 @@ button {
     padding: 8px 1rem;
 }
 }
+
+
+
