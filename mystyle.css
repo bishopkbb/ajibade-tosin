@@ -343,24 +343,58 @@ button {
     transform: scale(1.2);
 }
 
+.page-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #1f2937;
+    color: white;
+}
+
+.page-header.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.nav-links a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.category-hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #1f2937;
+    color: #fff;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
 @media (max-width: 768px) {
-    body {
-        font-size: 0.9rem;
-    }
     
-    header {
-        padding: 0.9rem;
-    }
-
-    nav ul {
-        flex-direction: row;
-        text-align: center;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
     .nav-links {
         flex-direction: row;
         align-items: center;
